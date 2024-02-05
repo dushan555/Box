@@ -622,7 +622,7 @@ public class BaseVideoView<P extends AbstractPlayer> extends FrameLayout
      * 设置视频地址
      */
     public void setUrl(String url) {
-        HashMap<String, String> headers = null;
+        Map<String, String> headers = null;
         headers.put("referer", "mgtv.com");
         setUrl(url, headers);
     }
